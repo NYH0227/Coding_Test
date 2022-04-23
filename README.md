@@ -1,5 +1,4 @@
-# 코딩 테스트
-## 백준에서 풀어본 것들
+## 코딩 테스트
 ---
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={agent227})](https://solved.ac/{agent227})
 
