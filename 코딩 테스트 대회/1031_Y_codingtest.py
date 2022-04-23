@@ -20,20 +20,6 @@ for index, i in enumerate(n):
 print(result)
 
 
-import sys
-result = 0
-
-n = int(sys.stdin.readline())
-A = list(map(int, sys.stdin.readline().split()))
-B = list(map(int, sys.stdin.readline().split()))
-
-for e in A:
-    if e in B:
-        B.remove(e)
-    else:
-        result += 1
-    
-print(result)
 
 # 문제 2 당시에 틀렸던 코드
 from collections import deque
