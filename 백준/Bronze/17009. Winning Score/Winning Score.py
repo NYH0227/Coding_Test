@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+E = int(input())
+F = int(input())
+
+if (A*3+B*2+C) > (D*3+E*2+F): print("A")
+elif (A*3+B*2+C) < (D*3+E*2+F): print("B")
+else: print("T")
