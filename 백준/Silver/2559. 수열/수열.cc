@@ -12,7 +12,6 @@ int main(){
         cin>>arr[i];
     }
     
-    int result[N-K+1];
     int sum = 0;
     int max1 = -100*(N+4);
     for(int i = 0 ; i<N; i++){
