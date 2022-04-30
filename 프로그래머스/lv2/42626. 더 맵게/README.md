@@ -6,7 +6,7 @@
 priority_queue<int,vector<int>,greater<int>> pq;
 for(auto s : scoville) pq.push(s);
 
-priority_queue<int,vector<int>,greater<int>> pq(scoville.begin(),scoville.end());
+priority_queue<int,vector<int>,greater<int>> pq(scoville.begin(),scoville.end());<br>
 생성자로 한번에 초기화 하는 것이 하나씩 push하는 것보다 약 15% 정도 빠른 효율이 나왔다.
         
 ### 성능 요약
