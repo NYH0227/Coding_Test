@@ -2,6 +2,13 @@
 
 [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 
+### 시험 해본 것
+priority_queue<int,vector<int>,greater<int>> pq;
+for(auto s : scoville) pq.push(s);
+
+priority_queue<int,vector<int>,greater<int>> pq(scoville.begin(),scoville.end());
+생성자로 한번에 초기화 하는 것이 하나씩 push하는 것보다 약 15% 정도 빠른 효율이 나왔다.
+        
 ### 성능 요약
 
 메모리: 40.8 MB, 시간: 218.92 ms
