@@ -16,7 +16,7 @@
 --- 
     ABCD
 ### 짝수 홀수 구분하는 비트연산
-    int n = 3;
+    int n = 227;
     if(n&1) printf("홀수");
     else printf("짝수")
 ---
