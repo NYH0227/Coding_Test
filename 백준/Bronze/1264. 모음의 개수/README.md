@@ -2,6 +2,13 @@
 
 [문제 링크](https://www.acmicpc.net/problem/1264) 
 
+### 새롭게 배워본것
+
+소문자를 대문자로
+string[i] &= 0xDF;
+string[i] ^= 32;
+
+
 ### 성능 요약
 
 메모리: 2024 KB, 시간: 0 ms
