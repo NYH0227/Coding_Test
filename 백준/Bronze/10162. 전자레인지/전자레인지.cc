@@ -1,15 +1,12 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
 
 int n;
 int arr[3] = {300,60,10};
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0);
+
+    scanf("%d",&n);
     
-    cin>>n;
     for(int i = 0; i<3; i++){
         int tmp = arr[i];
         arr[i] = n/tmp;
