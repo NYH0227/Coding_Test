@@ -1,0 +1,1 @@
+for i in range(int(input())): print("$%.02f" % round(float(input())*(4/5),2))
