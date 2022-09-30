@@ -1,0 +1,1 @@
+for i in input(): print(i*sum([int(j) for j in str(ord(i))]))
