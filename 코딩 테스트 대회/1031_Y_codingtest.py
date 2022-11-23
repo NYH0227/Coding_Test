@@ -64,6 +64,7 @@ def aka(s):
 s = sys.stdin.readline().strip()
 print("AKARAKA") if aka(s) == 1 else print('IPSELENTI')
 
+# 와 이걸 재귀로 푸네 지렸다 
 
 
 
